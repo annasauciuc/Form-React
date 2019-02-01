@@ -1,9 +1,11 @@
 .NewPost {
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    box-shadow: 0 2px 3px rgb(102, 100, 100);
+    background-color: #16e093;
     text-align: center;
+    border-radius: 7px;
 }
 
 .NewPost label {
@@ -20,6 +22,7 @@
     width: 80%;
     box-sizing: border-box;
     border: 1px solid black;
+    border-radius: 3px;
     outline: none;
     font: inherit;
     margin: auto;
@@ -27,10 +30,11 @@
 
 .NewPost button {
     margin: 5px 0;
+    border-radius: 5px;
     padding: 10px;
     font: inherit;
     border: 1px solid #fa923f;
-    background-color: transparent;
+    background-color: rgb(241, 237, 237);
     color: #fa923f;
     cursor: pointer;
 }
