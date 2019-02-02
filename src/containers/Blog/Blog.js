@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 import { Route, NavLink, Switch, Redirect } from 'react-router-dom';
 
 import './Blog.css';
-import Posts from './Posts/Posts';
+import Posts from './../../components/Posts/Posts';
 import asyncComponent from '../../hoc/asyncComponent';
 // import NewPost from './NewPost/NewPost';
 
 const AsyncNewPost = asyncComponent(() => {
-    return import('./NewPost/NewPost');
+    return import('./../../components/NewPost/NewPost');
 });
 
 class Blog extends Component {
