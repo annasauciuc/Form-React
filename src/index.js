@@ -3,10 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import axios from "axios";
-import Axios from "axios";
 
-axios.defaults.baseURL='https://jsonplaceholder.typicode.com';
+import axios from "axios";
+
+
+ axios.defaults.baseURL='https://jsonplaceholder.typicode.com';
 axios.defaults.headers.common['Authorization']='AUTO TOKEN';
 axios.defaults.headers.post['Content-Type']='application/json'
 
